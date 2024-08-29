@@ -1,6 +1,7 @@
 import { softSkills } from "@/data";
 import React from "react";
 import { Button } from "./ui/MovingBorder";
+import Image from "next/image";
 
 const SoftSkills = () => {
   return (
