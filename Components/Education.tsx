@@ -2,7 +2,6 @@
 import React from "react";
 import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 import { AnimatePresence, motion } from "framer-motion";
-import { div } from "three/examples/jsm/nodes/Nodes.js";
 
 const Education = () => {
   return (
