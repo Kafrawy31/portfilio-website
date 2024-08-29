@@ -4,7 +4,6 @@ import { FaHome } from "react-icons/fa";
 import Grid from "@/Components/Grid";
 import RecentProjects from "@/Components/RecentProjects";
 import { navItems } from "@/data";
-import Me from "@/Components/Me";
 import SoftSkills from "@/Components/SoftSkills";
 import Education from "@/Components/Education";
 export default function Home() {
