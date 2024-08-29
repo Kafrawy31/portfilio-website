@@ -14,7 +14,7 @@ const RecentProjects = () => {
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
             key={id}
-            className="md:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
+            className="md:min-h-[32.5rem] h-[20rem] flex items-center justify-center sm:w-96 w-[80vw]"
           >
             <PinContainer title={link} href={link}>
               <>
@@ -25,11 +25,7 @@ const RecentProjects = () => {
                   >
                     <img src="/bg.png" alt="bgimg" />
                   </div>
-                  <img
-                    src={img}
-                    alt="cover"
-                    className="z-10 absolute bottom-0"
-                  />
+                  <img src={img} alt="cover" />
                 </div>
 
                 <h1 className="font-bold lg:text-xl md:text-xl text-base line-clamp-1">
@@ -59,7 +55,7 @@ const RecentProjects = () => {
                   </div>
                   <div className="flex justify-center items-center">
                     <p className="flex lg:text-xs md:text-xs text-sm text-purple">
-                      Check Live site
+                      {id === 2 ? "Check Live Site" : "Check GitHub"}
                     </p>
                     <FaLocationArrow className="ms-3 color='#CBACF9' flex justify-center items-center" />
                   </div>

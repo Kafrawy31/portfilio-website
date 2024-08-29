@@ -50,8 +50,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building an AI personal trainer app",
-    description: "The Inside Scoop",
+    title: "Currently building a fullstack inflation predictor",
+    description: "Sneak peak",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -72,20 +72,37 @@ export const gridItems = [
 
 export const projects = [
   {
+    id: 2,
+    title: "Client portfolio website",
+    des: "An architect's portfolio website highlighting his career's achievements",
+    img: "/dad-portfolio.png",
+    iconLists: [
+      "/react.svg",
+      "/next.svg",
+      "/css.png",
+      "/html.png",
+      "/js.png",
+      "/ts.png",
+    ],
+    link: "https://kelkafrawy-portfolio.vercel.app/",
+  },
+  {
     id: 1,
     title: "A Web-based bug tracker",
     des: "A gamified bug tracker with points and a weekly leaderboard of top project performers",
-    img: "/bug-tracker.png",
+    img: "/bugtrackerhome.jpg",
+    imgClassName: "absolute mb-8",
     iconLists: [
       "/python-icon.svg",
       "/react.svg",
       "/sqlite-icon.jpg",
       "/django-icon.png",
     ],
-    link: "https://github.com/Kafrawy31/MYBugTracker",
+    link: "https://github.com/Kafrawy31/Final-Bugtracker",
   },
+
   {
-    id: 2,
+    id: 3,
     title: "Agent simulation and AI shoplifter detection",
     des: "Agent based simulation and AI approach to detecting shoplifters",
     img: "/agent-based-simulation.png",
@@ -99,58 +116,12 @@ export const projects = [
     link: "https://github.com/uol-feps-soc-meng-gp",
   },
   {
-    id: 3,
+    id: 4,
     title: "Music generating genetic algorithm",
     des: "Generating music (drums,chorus,melodies.. etc) using self-made genetic algorithms",
     img: "/music-generation.png",
     iconLists: ["/python-icon.svg"],
     link: "https://github.com/keeganA/bio-inspired-computing-cwk2",
-  },
-  {
-    id: 4,
-    title: "Image captioning GRU",
-    des: "An RNN that captions images using an image dataset and given dictionary",
-    img: "/gru.png",
-    iconLists: [
-      "/python-icon.svg",
-      "/pytorch-icon.png",
-      "/pandas-icon.png",
-      "/matplotlib-icon.png",
-    ],
-    link: "https://github.com/adrianhajdin/iphone",
-  },
-];
-
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
   },
 ];
 
