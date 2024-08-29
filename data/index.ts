@@ -91,7 +91,7 @@ export const projects = [
     title: "A Web-based bug tracker",
     des: "A gamified bug tracker with points and a weekly leaderboard of top project performers",
     img: "/bugtrackerhome.jpg",
-    imgClassName: "absolute mb-8",
+    imgClassName: "",
     iconLists: [
       "/python-icon.svg",
       "/react.svg",
